@@ -1,0 +1,6 @@
+.is-invalid{
+    border: 1px solid rgb(181, 55, 55);
+}
+.container.home{
+    height: calc(100vh - 120px);
+}
