@@ -4,3 +4,11 @@
 .container.home{
     height: calc(100vh - 120px);
 }
+.form{
+
+    -webkit-box-shadow: 13px -18px 76px 1px rgba(209,209,209,1);
+-moz-box-shadow: 13px -18px 76px 1px rgba(209,209,209,1);
+box-shadow: 13px -18px 76px 1px rgba(209,209,209,1);
+border-radius: 8px;
+
+}
