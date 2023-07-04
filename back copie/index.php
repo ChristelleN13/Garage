@@ -7,11 +7,10 @@ if (isset($_SESSION['user_id'])) {
     header('Location: home.php');
     exit;
 }
-
 // Vérifier si le formulaire de connexion est soumis
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Récupérer les données du formulaire
-    $username = $_POST['username'];
+    $username = $_POST['email'];
     $password = $_POST['password'];
 
     // Valider les données (vérifier si les champs sont vides, etc.)
